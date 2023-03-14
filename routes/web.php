@@ -25,4 +25,7 @@ Route::group(['prefix' => '/test'], function (){
         return $param;
     })->name('test.route1');
 });
+Route::get('/admin', function (){
+    return view('admin');
+})->name('admin.port');
 

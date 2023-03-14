@@ -14,4 +14,9 @@ class WebController extends Controller
     {
         return view('about');
     }
+    public function admin(Request $request)
+    {
+        return view('admin');
+    }
+
 }
